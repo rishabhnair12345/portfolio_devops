@@ -11,6 +11,12 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
+    <style>
+      .experience__content ul {
+        list-style-type: disc; /* Small dots for list items */
+        padding-left: 20px;
+      }
+    </style>
   </head>
 
   <body oncontextmenu="return false">
@@ -19,33 +25,6 @@
       <nav class="nav container">
         <a href="#" class="nav__logo">Rishabh</a>
         <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact
-              </a>
-            </li>
-          </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
@@ -108,14 +87,53 @@
               <p class="home__description">
                 I aim to leverage DevOps practices, automated testing, and CI/CD pipelines to enhance software quality while collaborating with diverse teams.
               </p>
-              <a href="#contact" class="button button--flex">
+              <a href="https://www.linkedin.com/in/rishabh-nair-1b856b162/" target="_blank" class="button button--flex">
                 Contact Me<i class="uil uil-message button__icon"></i>
               </a>
             </div>
           </div>
         </div>
       </section>
-
+      <section class="experience section" id="experience">
+        <h2 class="section__title">Work Experience</h2>
+        <span class="section__subtitle">My Professional Journey</span>
+        <div class="experience__container container grid">
+           <!-- Experience 1 -->
+          <div class="experience__content">
+            <h3 class="experience__title"> Engineer At Cigniti technology</h3>
+            <span class="experience__company">SouthWest Airlines | 2023 - Present</span>
+            <p class="experience__description">
+            <strong>Driving efficiency in software testing by developing automation frameworks, streamlining test data creation, managing CI/CD pipelines, and optimizing cloud-based deployments.</strong>
+            </p>
+            <ul>
+              <li><strong>Developed and Maintained a Data Creation Portal</strong> – Built a web-based portal to automate test data creation for Workday, reducing manual effort and enabling testers and product owners to generate data on demand.</li>
+              <li><strong>Implemented CI/CD Pipelines with GitLab</strong> – Designed and managed GitLab CI/CD pipelines to automate deployments, ensuring quick and reliable updates with minimal downtime.</li>
+              <li><strong>Deployed and Maintained AWS Infrastructure</strong> – Hosted the portal on AWS, optimizing deployment strategies for scalability, reliability, and performance.</li>
+              <li><strong>Integrated Automation for Efficiency</strong> – Assisted in developing and integrating automation scripts, reducing human errors, improving productivity, and streamlining test data generation.</li>
+              <li><strong>Managed Configuration and Change Requests</strong> – Maintained portal configurations, handling updates based on evolving business needs while ensuring consistency across environments.</li>
+              <li><strong>Improved Overall Testing Efficiency</strong> – Reduced data creation time, minimized manual errors, increased scalability, and streamlined deployment, enhancing the overall testing process.</li>
+            </ul>
+          </div>
+          <!-- Experience 2 -->
+        <div class="experience__content">
+          <h3 class="experience__title">Associate Engineer At Cigniti Technology</h3>
+          <span class="experience__company">Waste Management | 2021 - 2023</span>
+          <p class="experience__description">
+            Enhancing automation processes, ensuring system integrity, and integrating efficient testing solutions within CI/CD pipelines.
+          </p>
+          <ul>
+            <li><strong>Automated Workday Integrations</strong> – Developed an automation framework to validate 100+ integrations, ensuring data accuracy by cross-checking with human design and testing documents.</li>
+            <li><strong>Built and Maintained Selenium-Based Framework</strong> – Designed a scalable test automation framework using Selenium and TestNG, significantly reducing manual testing efforts.</li>
+            <li><strong>Integrated CI/CD for Automated Testing</strong> – Implemented CI/CD pipelines to execute automated tests efficiently with every deployment, improving reliability.</li>
+            <li><strong>Improved Testing Efficiency and Accuracy</strong> – Replaced manual testing with automation, accelerating test cycles, reducing errors, and increasing overall productivity.</li>
+            <li><strong>Collaborated in Agile Development</strong> – Worked closely with manual testers, developers, and product owners in Agile sprints to gather requirements and define test scenarios.</li>
+            <li><strong>Optimized and Maintained Automation Suite</strong> – Continuously enhanced test scripts and frameworks to keep up with system updates and evolving business requirements.</li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </section>
+      
       <!-- Projects Section -->
       <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Projects</h2>
@@ -129,7 +147,7 @@
               <p class="portfolio__description">
                 Developed a Selenium-based test automation framework for Workday HCM, improving testing efficiency by 40%.
               </p>
-              <a href="https://github.com/your-repo" class="button button--flex button--small portfolio__button">
+              <a href="https://github.com/rishabhnair12345" class="button button--flex button--small portfolio__button">
                 GitHub<i class="uil uil-external-link-alt button__icon"></i>
               </a>
             </div>
