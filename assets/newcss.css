@@ -120,14 +120,15 @@ body {
 .toggle__header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  padding: 0.5rem 0;
+  align-items: center; /* vertically centers h3 and svg */
+  gap: 1rem; /* optional: adds space between title and arrow */
+  padding: 0.75rem 1rem; /* optional: adjusts spacing */
 }
 
 .dropdown__arrow {
-  transition: transform 0.3s ease;
-  color: var(--text-color, #333); /* Optional theming */
+  flex-shrink: 0; /* don’t let it shrink */
+  width: 24px;
+  height: 24px;
 }
 .rotate {
   transform: rotate(180deg);
