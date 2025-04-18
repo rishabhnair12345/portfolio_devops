@@ -43,7 +43,7 @@
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
-              <a href="https://www.linkedin.com/in/rishabh-nair-1b856b162/" target="_blank" class="home__social-icon">
+              <a href="https://www.linkedin.com/in/nitish-nair-ops/" target="_blank" class="home__social-icon">
                 <i class="uil uil-linkedin-alt home__icon"></i>
               </a>
               <a href="https://github.com/rishabhnair12345" target="_blank" class="home__social-icon">
@@ -83,9 +83,9 @@
             </div>
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Rishabh Nair</h1>
-              <h3 class="home__subtitle">DevOps & QA Professional</h3>
+              <h3 class="home__subtitle">Engineer with 2 years of experience in devops</h3>
               <p class="home__description">
-                I aim to leverage DevOps practices, automated testing, and CI/CD pipelines to enhance software quality while collaborating with diverse teams.
+                I focus on leveraging DevOps practices, infrastructure as code, and CI/CD pipelines to streamline development workflows and improve software delivery. Passionate about automation, scalability, and cross-functional collaboration.
               </p>
               <a href="https://www.linkedin.com/in/rishabh-nair-1b856b162/" target="_blank" class="button button--flex">
                 Contact Me<i class="uil uil-message button__icon"></i>
@@ -94,46 +94,6 @@
           </div>
         </div>
       </section>
-      <section class="experience section" id="experience">
-        <h2 class="section__title">Work Experience</h2>
-        <span class="section__subtitle">My Professional Journey</span>
-        <div class="experience__container container grid">
-           <!-- Experience 1 -->
-          <div class="experience__content">
-            <h3 class="experience__title"> Engineer At Cigniti technology</h3>
-            <span class="experience__company"><strong> SouthWest Airlines</strong>  | 2023 - Present</span>
-            <p class="experience__description">
-            Driving efficiency in software testing by developing automation frameworks, streamlining test data creation, managing CI/CD pipelines, and optimizing cloud-based deployments.
-            </p>
-            <ul>
-              <li><strong>Developed and Maintained a Data Creation Portal</strong> – Built a web-based portal to automate test data creation for Workday, reducing manual effort and enabling testers and product owners to generate data on demand.</li>
-              <li><strong>Implemented CI/CD Pipelines with GitLab</strong> – Designed and managed GitLab CI/CD pipelines to automate deployments, ensuring quick and reliable updates with minimal downtime.</li>
-              <li><strong>Deployed and Maintained AWS Infrastructure</strong> – Hosted the portal on AWS, optimizing deployment strategies for scalability, reliability, and performance.</li>
-              <li><strong>Integrated Automation for Efficiency</strong> – Assisted in developing and integrating automation scripts, reducing human errors, improving productivity, and streamlining test data generation.</li>
-              <li><strong>Managed Configuration and Change Requests</strong> – Maintained portal configurations, handling updates based on evolving business needs while ensuring consistency across environments.</li>
-              <li><strong>Improved Overall Testing Efficiency</strong> – Reduced data creation time, minimized manual errors, increased scalability, and streamlined deployment, enhancing the overall testing process.</li>
-            </ul>
-          </div>
-          <!-- Experience 2 -->
-        <div class="experience__content">
-          <h3 class="experience__title">Associate Engineer At Cigniti Technology</h3>
-          <span class="experience__company"><strong> Waste Management</strong>  | 2021 - 2023</span>
-          <p class="experience__description">
-            Enhancing automation processes, ensuring system integrity, and integrating efficient testing solutions within CI/CD pipelines.
-          </p>
-          <ul>
-            <li><strong>Automated Workday Integrations</strong> – Developed an automation framework to validate 100+ integrations, ensuring data accuracy by cross-checking with human design and testing documents.</li>
-            <li><strong>Built and Maintained Selenium-Based Framework</strong> – Designed a scalable test automation framework using Selenium and TestNG, significantly reducing manual testing efforts.</li>
-            <li><strong>Integrated CI/CD for Automated Testing</strong> – Implemented CI/CD pipelines to execute automated tests efficiently with every deployment, improving reliability.</li>
-            <li><strong>Improved Testing Efficiency and Accuracy</strong> – Replaced manual testing with automation, accelerating test cycles, reducing errors, and increasing overall productivity.</li>
-            <li><strong>Collaborated in Agile Development</strong> – Worked closely with manual testers, developers, and product owners in Agile sprints to gather requirements and define test scenarios.</li>
-            <li><strong>Optimized and Maintained Automation Suite</strong> – Continuously enhanced test scripts and frameworks to keep up with system updates and evolving business requirements.</li>
-          </ul>
-        </div>
-      </div>
-        </div>
-      </section>
-      
       <!-- Projects Section -->
       <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Projects</h2>
@@ -141,49 +101,195 @@
         <div class="portfolio__container container grid">
           <!-- Project 1 -->
           <div class="portfolio__content">
-            <img src="assets/img/portfolio1.png" alt="Project 1" class="portfolio1__img" />
+            <img src="assets/img/portfolio-flights.png" alt="Flight Price Tracker" class="portfolio1__img" />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">Automated Test Suite</h3>
+              <h3 class="portfolio__title">Flight Price Tracker</h3>
               <p class="portfolio__description">
-                Developed a Selenium-based test automation framework for Workday HCM, improving testing efficiency by 40%.
+                Built a Python-based flight price tracker using the Skyscanner API with live data fetching, validation,
+                JSON export, and Render deployment. Integrated Gunicorn for production and implemented user-friendly
+                error handling. Includes config-based API key management and a complete README for setup and contribution.
               </p>
-              <a href="https://github.com/rishabhnair12345" class="button button--flex button--small portfolio__button">
+              <ul class="portfolio__description">
+                <li>🔍 Real-time flight price tracking using Skyscanner API</li>
+                <li>💾 Automatically stores flight data in JSON format</li>
+                <li>🧪 User input validation with helpful error messages</li>
+                <li>🐳 Dockerized app for consistent environment setup</li>
+                <li>🚀 Deployed on DigitalOcean droplet using Gunicorn + Nginx</li>
+                <li>📬 Integrated email & Telegram alerts for cheapest flight deals</li>
+                <li>🔄 GitHub Actions for automated CI/CD pipeline</li>
+                <li>📁 Configurable via `.properties` file for flexible location mappings</li>
+                <li>🌐 Live demo hosted on Render</li>
+                <li>📄 Detailed README with setup and usage instructions</li>
+              </ul>
+              <a href="https://skyscanner-scraper.onrender.com" class="button button--flex button--small portfolio__button">
+                Web<i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/rishabhnair12345/skyscanner_scraper" class="button button--flex button--small portfolio__button">
                 GitHub<i class="uil uil-external-link-alt button__icon"></i>
               </a>
             </div>
           </div>
+          
 
           <!-- Project 2 -->
           <div class="portfolio__content">
-            <img src="assets/img/portfolio2.png" alt="Project 2" class="portfolio2__img" />
+            <img src="assets/img/portfolio-wanderlust.png" alt="Wanderlust DevOps Deployment" class="portfolio2__img" />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">CI/CD Integration</h3>
+              <h3 class="portfolio__title">Wanderlust - DevOps Deployment</h3>
               <p class="portfolio__description">
-                Created Jenkins and GitLab pipelines with automated triggers, real-time alerts, and reduced manual intervention.
+                Deployed a full-stack Wanderlust app on a DigitalOcean Ubuntu server using DevOps best practices:
+                <ul>
+                  <li>🔧 Created a DigitalOcean Ubuntu droplet and installed Docker, Node.js, MongoDB, Redis, Nginx, UFW.</li>
+                  <li>🔐 Enabled UFW and allowed ports: 5000, 5173, 27017, 6379, 9000.</li>
+                  <li>🐳 Dockerized MongoDB, Redis, Backend, and Frontend using <code>docker-compose.yml</code>.</li>
+                  <li>📁 Enabled volume mapping for MongoDB persistence.</li>
+                  <li>🐘 Resolved Redis conflicts by fully containerizing it.</li>
+                  <li>🌐 Ensured inter-container communication via a custom Docker network.</li>
+                  <li>📡 Verified open ports and disabled local DB services to avoid conflicts.</li>
+                  <li>🗄️ Imported MongoDB data via <code>mongoimport</code> from mounted volume.</li>
+                  <li>📊 Deployed SonarQube in a container for static code analysis on port 9000.</li>
+                  <li>🔍 Installed Trivy manually to perform container vulnerability scanning.</li>
+                  <li>✅ Verified running containers with <code>docker ps</code> and checked logs.</li>
+                </ul>
+                Fully functional, production-ready deployment with complete DevOps workflow.
               </p>
+              <a href="https://wanderlust-beta.vercel.app" class="button button--flex button--small portfolio__button">
+                Web<i class="uil uil-external-link-alt button__icon"></i>
+              </a>
               <a href="https://github.com/your-repo" class="button button--flex button--small portfolio__button">
                 GitHub<i class="uil uil-external-link-alt button__icon"></i>
               </a>
             </div>
           </div>
+          
         </div>
-      </section>
+        <section class="experience section" id="experience">
+          <h2 class="section__title">Work Experience</h2>
+          <span class="section__subtitle">My Professional Journey</span>
+          <div class="experience__container container grid">
+        
+            <!-- Experience 1 -->
+            <div class="experience__content">
+              <div class="toggle__header">
+                <h3 class="experience__title">Engineer At Cigniti Technology</h3>
+                <svg class="dropdown__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="toggle__body">
+                <span class="experience__company"><strong>SouthWest Airlines</strong> | 2023 - Present</span>
+                <p class="experience__description">
+                  Built and maintained an AWS-hosted data creation portal...
+                </p>
+                <ul>
+                  <li><strong>Developed and Maintained a Data Creation Portal</strong> – Built a web-based portal to automate test data creation...</li>
+                  <li><strong>Implemented CI/CD Pipelines with GitLab</strong> – Designed and managed GitLab CI/CD pipelines...</li>
+                  <li><strong>Deployed and Maintained AWS Infrastructure</strong> – Hosted the portal on AWS...</li>
+                  <li><strong>Integrated Automation for Efficiency</strong> – Assisted in developing and integrating automation scripts...</li>
+                  <li><strong>Managed Configuration and Change Requests</strong> – Maintained portal configurations...</li>
+                  <li><strong>Improved Overall Testing Efficiency</strong> – Reduced data creation time...</li>
+                </ul>
+              </div>
+            </div>
+        
+            <!-- Experience 2 -->
+            <div class="experience__content">
+              <div class="toggle__header">
+                <h3 class="experience__title">Associate Engineer At Cigniti Technology</h3>
+                <svg class="dropdown__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="toggle__body">
+                <span class="experience__company"><strong>Waste Management</strong> | 2021 - 2023</span>
+                <p class="experience__description">
+                  Enhancing automation processes, ensuring system integrity...
+                </p>
+                <ul>
+                  <li><strong>Automated Workday Integrations</strong> – Developed an automation framework...</li>
+                  <li><strong>Built and Maintained Selenium-Based Framework</strong> – Designed a scalable framework using Selenium...</li>
+                  <li><strong>Integrated CI/CD for Automated Testing</strong> – Implemented CI/CD pipelines...</li>
+                  <li><strong>Improved Testing Efficiency and Accuracy</strong> – Replaced manual testing with automation...</li>
+                  <li><strong>Collaborated in Agile Development</strong> – Worked closely with manual testers and developers...</li>
+                  <li><strong>Optimized and Maintained Automation Suite</strong> – Continuously enhanced scripts and frameworks...</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+          <h2 class="section__title">Technical Arsenal</h2>
+          <div class="skills__container container grid">
+            <div class="skills__category">
+              <div class="toggle__header">
+                <h3>Cloud & Infrastructure</h3>
+                <svg class="dropdown__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="toggle__body">
+                <ul>
+                  <li><span style="white-space: nowrap;">GitLab CI/CD – Automates build, test, and deployment pipelines directly from GitLab.</span></li>
+                  <li><span style="white-space: nowrap;">Jenkins – Open-source automation server for building and deploying code.</span></li>
+                  <li><span style="white-space: nowrap;">Ansible – Tool for configuration management and application deployment using simple YAML files.</span></li>
+                  <li><span style="white-space: nowrap;">Python – Versatile, beginner-friendly programming language used in scripting, automation, and development.</span></li>
+                  <li><span style="white-space: nowrap;">AWS – Amazon Web Services; cloud platform offering scalable computing and storage solutions.</span></li>
+                  <li><span style="white-space: nowrap;">Docker – Platform to package applications into containers for consistent environments across systems.</span></li>
+                  <li><span style="white-space: nowrap;">Terraform – Infrastructure as Code (IaC) tool to manage cloud resources using declarative config files.</span></li>
+                  <li><span style="white-space: nowrap;">Kubernetes – Container orchestration system for automating app deployment and scaling (I’m just getting started with this).</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Rishabh</h1>
-            <span class="footer__subtitle">QA & DevOps Professional</span>
+   <!-- Enhanced Footer -->
+   <footer class="footer" id="contact" style="background-color: #1e3a8a; color: white;">
+    <div class="footer__bg">
+      <div class="footer__container container grid" style="padding: 1rem 1rem;">
+        <div class="footer__content">
+          <h2 class="footer__title" style="color: #fff; font-size: 1.75rem;">Let's Connect</h2>
+          <p class="footer__text" style="margin: 0.5rem 0 1.5rem; max-width: 500px;">
+            Open to discussing DevOps opportunities, cloud architecture challenges, or automation strategies.
+          </p>
+          <div class="footer__links" style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="mailto:rishabhnair456@gmail.com" class="footer__link" style="color: #cbd5e1; text-decoration: none;">
+              <i class="uil uil-envelope" style="margin-right: 0.5rem;"></i> rishabhnair456@gmail.com
+            </a>
+            <a href="tel:+91 7750067876" class="footer__link" style="color: #cbd5e1; text-decoration: none;">
+              <i class="uil uil-phone" style="margin-right: 0.5rem;"></i> +91 7750067876
+            </a>
+            <!-- Social icons here -->
+            <a href="https://www.linkedin.com/in/nitish-nair-ops/" class="footer__link" style="color: #cbd5e1; text-decoration: none;">
+              <i class="uil uil-linkedin-alt home__icon"></i> linkedIn
+            </a>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
+  
 
     <script src="assets/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="assets/ptj.js"></script>
   </body>
+  <script>
+    document.querySelectorAll('.toggle__header').forEach(header => {
+      header.addEventListener('click', () => {
+        const body = header.nextElementSibling;
+        const arrow = header.querySelector('.dropdown__arrow');
+        
+        body.classList.toggle('open');
+        arrow.classList.toggle('rotate');
+      });
+    });
+  </script>
+  
+  
 </html>
